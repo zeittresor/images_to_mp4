@@ -1,17 +1,19 @@
 # images_to_mp4
-Ein einfaches GUI-Tool (PyQt5) um beliebig viele Bilder per Drag &amp; Drop oder Dateiauswahl hinzuzufügen und daraus ein MP4-Video zu erstellen.
+A simple GUI tool (PyQt5) to add any number of images via drag & drop or file selection and create an MP4 video from them. (Multi language: EN/DE/FR/ESP/RU)
 <br><br>
-<img width="706" height="519" alt="imagesToMp4" src="https://github.com/user-attachments/assets/2088f2cd-71e0-4263-980d-6fecf58b7739" />
+<img width="764" height="592" alt="grafik" src="https://github.com/user-attachments/assets/095cf031-5f01-4651-a6ef-fb30d91be03a" />
 <br><br>
-Benötigte Pakete:<br>
-    pip install PyQt5 Pillow opencv-python<br>
+Requirements:<br>
+    pip install PyQt5 Pillow opencv-python numpy<br>
 <br><br>
-Funktionen:<br>
-- Drag & Drop von Bildern in die Listenansicht<br>
-- Bilder per Dateidialog hinzufügen<br>
-- Reihenfolge änderbar (Drag within list)<br>
-- Einstellbar: Bildwechsel-Intervall in ms (default 40ms)<br>
-- Einstellbar: Ausgabegröße (default 512x512)<br>
-- Lanczos-Resampling beim Skalieren (Pillow Image.LANCZOS)<br>
-- Save-Dialog um MP4 zu speichern<br>
-- Fortschrittsanzeige<br>
+Features:<br>
+- Drag & Drop images and folders (non-recursive)
+- Add files / add folder via dialogs
+- Reorder by dragging inside the list
+- Remove selected / clear list
+- Output size + frame interval (ms) settings
+- EXIF auto-rotate support
+- Center-fit with black padding (keeps aspect ratio)
+- Progress bar + status text + cancel button
+- Multi-language UI switcher via radio buttons:
+  German, English, French, Spanish, Russian
