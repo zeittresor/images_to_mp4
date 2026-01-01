@@ -3,7 +3,7 @@ A simple GUI tool (PyQt5) to add any number of images via drag & drop or file se
 <br><br>
 <img width="764" height="592" alt="grafik" src="https://github.com/user-attachments/assets/095cf031-5f01-4651-a6ef-fb30d91be03a" />
 <br><br>
-Requirements:<br>
+Install Requirements (or use the batch file):<br>
     pip install PyQt5 Pillow opencv-python numpy<br>
 <br><br>
 Features:<br>
